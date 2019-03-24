@@ -17,6 +17,7 @@ body {
 
 button:hover {
   left: 0;
+  background-color: #008CBA;
 }
 
 Click here {
