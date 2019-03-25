@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
   background-image: url("../images/background3.jpg");
+=======
+  background-image: url("../images/background2.jpg");
+>>>>>>> gh-pages
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -17,6 +21,7 @@ body {
 
 button:hover {
   left: 0;
+  background-color: #008CBA;
 }
 
 Click here {
