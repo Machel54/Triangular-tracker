@@ -1,6 +1,5 @@
 function triangleTracker(){
 	var triangle = [];
-<<<<<<< HEAD
 triangle.push(parseInt(prompt("Enter the first side of the triangle: ")));
 		if(isNaN(triangle[0]) === true || triangle[0] <= 0){
 				alert("Please enter a valid dimension");
@@ -11,19 +10,9 @@ triangle.push(parseInt(prompt("Enter the first side of the triangle: ")));
 }else{
 	triangle.push(parseInt(prompt("Enter the third side of the triangle:")));
 		if(isNaN(triangle[2]) === true || triangle[2] <= 0){
-=======
 triangle.push(parseInt(prompt("Enter the first dimension of the triangle: ")));
 		if(triangle[0]) === true || triangle[0] <= 0){
 				alert("Please enter a valid dimension");
-}else{
-  triangle.push(parseInt(prompt("Enter the second dimension of the triangle:")));
-		if(triangle[1]) === true || triangle[1] <= 0){
-			alert("Please enter a valid dimension");
-}else{
-	triangle.push(parseInt(prompt("Enter the third dimension of the triangle:")));
-		if(triangle[2]) === true || triangle[2] <= 0){
->>>>>>> gh-pages
-			alert("Please enter a valid dimension");
 }else{
 		if((triangle[0] + triangle[1]) <= triangle[2] || (triangle[1] + triangle[2]) <= triangle[0] || (triangle[0] + triangle[2]) <= triangle[1]){
 			alert("It's not a triangle");
@@ -37,7 +26,5 @@ triangle.push(parseInt(prompt("Enter the first dimension of the triangle: ")));
 			alert("It's a scalene triangle");
 }
 }
-}
-}
-}
+
 document.getElementById('button').addEventListener('click', triangleTracker );

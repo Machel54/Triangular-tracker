@@ -1,13 +1,9 @@
 body {
-<<<<<<< HEAD
   background-image: url("../images/background3.jpg");
-=======
-  background-image: url("../images/background2.jpg");
->>>>>>> gh-pages
   background-repeat: no-repeat;
   background-size: auto;
 }
- button {
+ input {
   position: absolute;
   left: -80px;
   transition: 0.3s;
@@ -17,9 +13,10 @@ body {
   font-size: 20px;
   color: white;
   border-radius: 12px;
-}
 
-button:hover {
+  }
+
+input:hover {
   left: 0;
   background-color: #008CBA;
 }
@@ -27,6 +24,6 @@ button:hover {
 Click here {
   top: 20px;
 }
-button {
+input {
   background-color: #008CBA;
 }
