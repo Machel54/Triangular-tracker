@@ -6,7 +6,10 @@ function triTracker() {
   var trip = function(triangle1,triangle2,triangle3) {
   return triangle1 + triangle2 > triangle3 && triangle1 + triangle3 > triangle2 && triangle2 + triangle3 > triangle1;
   }
-  if (trip( triangle1,triangle2,triangle3) && triangle1 === triangle2 && triangle1 === triangle3 && triangle2 === triangle3)  {
+  if (trip(triangle1,triangle2,triangle3) && triangle1 <= 0 && triangle2 <= 0 && triangle3 <= 0) {
+    alert ("Not a triangle")
+  }
+  else if (trip( triangle1,triangle2,triangle3) && triangle1 === triangle2 && triangle1 === triangle3 && triangle2 === triangle3)  {
     alert ("It is an equilateral triangle.")
   }
   else if (trip(triangle1,triangle2,triangle3) && triangle1 === triangle2 || triangle2 === triangle3 || triangle3 === triangle1){
@@ -18,5 +21,4 @@ function triTracker() {
   else {
     alert("Not a triangle.")
   }
-
 }

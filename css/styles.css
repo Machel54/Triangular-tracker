@@ -2,6 +2,7 @@ body {
   background-image: url("../images/background3.jpg");
   background-repeat: no-repeat;
   background-size: auto;
+  color: white;
 }
  input {
   position: absolute;
@@ -13,17 +14,13 @@ body {
   font-size: 20px;
   color: white;
   border-radius: 12px;
-
-  }
+}
 
 input:hover {
   left: 0;
   background-color: #008CBA;
 }
 
-Click here {
-  top: 20px;
-}
 input {
   background-color: #008CBA;
 }
